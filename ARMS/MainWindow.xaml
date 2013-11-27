@@ -1,0 +1,29 @@
+﻿<Window x:Class="KinectExperiments.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ARMS" Height="600" Width="800">
+    <Grid Name="gridBuddy" Background="#FF5E1A1A">
+        <Canvas Height="463" HorizontalAlignment="Left" Margin="170,0,0,0" Name="canvasKinect" VerticalAlignment="Top" Width="617">
+            <Image Height="463" Name="imgKinectCanvas" Stretch="Fill" Width="617" Margin="300,-1,1,204" Canvas.Left="-306" Canvas.Top="1" />
+        </Canvas>
+        <Label Canvas.Left="6" Canvas.Top="429" Content="Label" Height="28" Name="labelSpeech" FontSize="14" Width="590" FontFamily="Lucida Console" FontWeight="Bold" Foreground="White" Margin="170,532,18,0" />
+        <Label Content="Camera Angle:" Height="28" HorizontalAlignment="Left" Margin="17,463,0,0" Name="label1" VerticalAlignment="Top" FontStyle="Normal" FontSize="14" FontStretch="Normal" Foreground="White" FontFamily="Lucida Console" FontWeight="Bold" />
+        <Button Content="Angle Up" HorizontalAlignment="Left" Margin="38,491,0,0" Name="buttonAngleUp" Width="75" Click="buttonAngleUp_Click" Height="23" VerticalAlignment="Top" />
+        <Button Content="Angle Down" Height="23" HorizontalAlignment="Left" Margin="38,520,0,0" Name="buttonAngleDown" VerticalAlignment="Top" Width="75" Click="buttonAngleDown_Click" />
+        <Label Content="Transport" Height="41" HorizontalAlignment="Left" Margin="12,65,0,0" Name="labelTransport" VerticalAlignment="Top" FontSize="26" Width="152" FontStretch="Normal" FontWeight="Bold" FontFamily="Lucida Console" Foreground="White" />
+        <Label Content="Stretch" Height="50" HorizontalAlignment="Left" Margin="12,99,0,0" Name="labelStretch" VerticalAlignment="Top" FontSize="26" Width="128" FontWeight="Bold" FontFamily="Lucida Console" Foreground="White" />
+        <Label Content="Scale" Height="51" HorizontalAlignment="Left" Margin="12,133,0,0" Name="labelScale" VerticalAlignment="Top" FontSize="26" Width="114" FontWeight="Bold" FontFamily="Lucida Console" Foreground="White" />
+        <Label Content="Stop" FontFamily="Lucida Console" FontSize="26" FontWeight="Bold" Foreground="White" Height="51" HorizontalAlignment="Left" Margin="335,463,0,0" Name="labelStop" VerticalAlignment="Top" Width="114" />
+        <Label Content="Undo" FontFamily="Lucida Console" FontSize="26" FontWeight="Bold" Foreground="White" Height="51" HorizontalAlignment="Left" Margin="468,498,0,0" Name="labelUndo" VerticalAlignment="Top" Width="114" />
+        <Label Content="Terminate" FontFamily="Lucida Console" FontSize="26" FontWeight="Bold" Foreground="White" Height="51" HorizontalAlignment="Left" Margin="468,463,0,0" Name="labelTerminate" VerticalAlignment="Top" Width="171" />
+        <Label Content="Reset" FontFamily="Lucida Console" FontSize="26" FontWeight="Bold" Foreground="White" Height="51" HorizontalAlignment="Left" Margin="335,498,0,0" Name="labelReset" VerticalAlignment="Top" Width="114" />
+        <Label Content="Phases" FontFamily="Lucida Console" FontSize="26" FontStretch="Normal" FontWeight="Bold" Foreground="#FFFF8080" Height="41" HorizontalAlignment="Left" Margin="10,10,0,0" Name="label2" VerticalAlignment="Top" Width="130" />
+        <Label Content="Commands" FontFamily="Lucida Console" FontSize="26" FontStretch="Normal" FontWeight="Bold" Foreground="#FFFF8080" Height="41" HorizontalAlignment="Left" Margin="170,463,0,0" Name="label3" VerticalAlignment="Top" Width="160" />
+        <Label Content="Color" FontFamily="Lucida Console" FontSize="26" FontWeight="Bold" Foreground="White" Height="51" HorizontalAlignment="Left" Margin="12,168,0,0" Name="labelColor" VerticalAlignment="Top" Width="114" />
+        <Label Content="- White" FontFamily="Lucida Console" FontSize="22" FontWeight="Bold" Foreground="White" Height="51" HorizontalAlignment="Left" Margin="17,201,0,0" Name="labelColorWhite" VerticalAlignment="Top" Width="114" Opacity="0" />
+        <Label Content="- Black" FontFamily="Lucida Console" FontSize="22" FontWeight="Bold" Foreground="White" Height="51" HorizontalAlignment="Left" Margin="17,230,0,0" Name="labelColorBlack" VerticalAlignment="Top" Width="114" Opacity="0" />
+        <Label Content="- Red" FontFamily="Lucida Console" FontSize="22" FontWeight="Bold" Foreground="White" Height="51" HorizontalAlignment="Left" Margin="17,258,0,0" Name="labelColorRed" VerticalAlignment="Top" Width="114" Opacity="0" />
+        <Label Content="- Green" FontFamily="Lucida Console" FontSize="22" FontWeight="Bold" Foreground="White" Height="51" HorizontalAlignment="Left" Margin="17,287,0,0" Name="labelColorGreen" VerticalAlignment="Top" Width="114" Opacity="0" />
+        <Label Content="- Blue" FontFamily="Lucida Console" FontSize="22" FontWeight="Bold" Foreground="White" Height="51" HorizontalAlignment="Left" Margin="17,315,0,0" Name="labelColorBlue" VerticalAlignment="Top" Width="114" Opacity="0" />
+    </Grid>
+</Window>
